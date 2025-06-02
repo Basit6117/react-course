@@ -1,0 +1,53 @@
+.LineThrough{
+    text-decoration: line-through;
+}
+.tasks input{
+    height: 40px;
+    width: 80vh;
+    border-radius: 6px;
+    background-color: #0d0b1f;
+    color: white;
+    margin-top: 4px;
+    /* accent-color: blue; */
+
+}
+.tasks h1{
+    color: white;
+    font-weight: 500;
+    margin-left: 100px;
+}
+
+.tasks ul li{
+    color: white;
+    background-color: #0f0d23;
+ border-radius: 10px;
+ box-shadow: 3px solid #0f0d23;
+ display: flex;
+height: 35px;
+ margin-top: 10px;
+ padding: 10px;
+}
+button{
+    width: 65px;
+    height: 30px;
+   
+    background-color: transparent;
+    color: white;
+    /* border: none; */
+    border-image:linear-gradient(to right, #8329, #119f) 1 1 1 1;
+}
+
+.tasks-list{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+button:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width:455px){
+    body{
+        background-color: #151515;
+    }
+    .Card{
+        background-color: aliceblue;
+    }
+}
+.CardTab{
+  display: flex;       /* Arrange children horizontally */
+  gap: 5px;          /* Space between cards */
+  flex-wrap: wrap;     /* Allow wrapping on small screens */
+  cursor: pointer;
+}
+.Card{
+    width: 300px;
+    height: 400px;
+    border-radius: 18px;
+    margin-top: 200px;
+    margin-left: 100px;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+     overflow: hidden;
+}
+.card-body{
+    line-height: 30px;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+.card-body li{
+    list-style: none;
+    color: #4B4B4B;
+    
+}
+.card-body p{
+   color: #b3b0b0;  
+   margin-bottom: 10px;
+}
+/* button{
+    margin-top: 20px;
+    padding: 13px;
+    color: white;
+    border: none;
+    background-color:#4ba3fa;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 30px;
+     cursor: pointer;
+} */
+.card-body h1{
+    margin-bottom: 20px;
+}
