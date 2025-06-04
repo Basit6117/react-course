@@ -1,0 +1,20 @@
+.tikNumContainer{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+ button{
+    margin-left: 80px;
+    margin-bottom: 10px;    
+}
+h2{
+    margin-left: 40px;
+    padding: 10px;
+}
